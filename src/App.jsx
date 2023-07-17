@@ -1,14 +1,16 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Home from "./pages/Home";
+import { Outlet } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <div className="bg-gray-50">
+      <NavBar />
+      <Outlet />
+      <Footer />
+    </div>
   );
 }
 
