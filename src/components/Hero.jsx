@@ -6,7 +6,7 @@ function Hero() {
       <img
         src="./article-image-hero.png"
         alt="hero image"
-        className="w-screen relative md:h-[600px]"
+        className="w-full relative md:h-[600px]"
       />
       <div className="absolute bottom-0 left-0 text-white p-3 md:w-1/3 md:ml-32">
         <p>JULY 23, 2022</p>
