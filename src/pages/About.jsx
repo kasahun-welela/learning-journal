@@ -1,13 +1,10 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 import data from "../datas";
 import Card from "../components/Card";
-import Footer from "../components/Footer";
 
 function About() {
   return (
     <>
-      <NavBar />
       <div className="mx-6 md:mt-12">
         <div className="mt-2  md:flex items-center gap-4 md:w-3/4 md:mx-auto">
           <img src="./profile.png" alt="profile image" />
@@ -70,8 +67,6 @@ function About() {
           ))}
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }
