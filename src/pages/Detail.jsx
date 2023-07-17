@@ -1,14 +1,10 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 import data from "../datas";
 import Card from "../components/Card";
-import Footer from "../components/Footer";
 
 function Detail() {
   return (
     <>
-      {" "}
-      <NavBar />
       <div className="mx-6">
         <div className="md:w-[70%] mx-auto">
           <p className="text-gray-600 text-sm md:text-base mt-7 ">
@@ -26,7 +22,6 @@ function Detail() {
         <img
           src="./article-image-hero.png"
           alt="image"
-          //   className="w-11/12 mx-auto my-6 md:h-[600px] "
           className="w-11/12 mx-auto my-6 md:h-[600px]"
         />
 
@@ -77,7 +72,6 @@ function Detail() {
           ))}
         </div>
       </div>{" "}
-      <Footer />
     </>
   );
 }
