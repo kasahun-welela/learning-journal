@@ -20,7 +20,7 @@ function Detail() {
           </p>
         </div>
         <img
-          src="./article-image-hero.png"
+          src="/article-image-hero.png"
           alt="image"
           className="w-11/12 mx-auto my-6 md:h-[600px]"
         />
@@ -64,6 +64,7 @@ function Detail() {
           {data.slice(0, 3).map((value, key) => (
             <Card
               key={value.id}
+              id={value.id}
               title={value.title}
               description={value.description}
               dateOfPost={value.dateOfPost}

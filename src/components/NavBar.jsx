@@ -23,7 +23,7 @@ export default function NavBar() {
   return (
     <div className="flex justify-between items-center p-2 bg-white py-6 font-bold dark:bg-slate-900 dark:text-white">
       <div className="flex items-center md:mx-16">
-        <img src="./logo.png" alt="logo" />
+        <img src="/logo.png" alt="logo" />
         <h1 className="text-xl">My Learning Journal</h1>
       </div>
       <div>
@@ -37,9 +37,9 @@ export default function NavBar() {
           <li>
             <button onClick={toggleDarkMode} className="md:mr-16">
               {darkMode ? (
-                <img src="./moon-fill.png" />
+                <img src="/moon-fill.png" />
               ) : (
-                <img src="./sun-fill.png" />
+                <img src="/sun-fill.png" />
               )}
             </button>
           </li>

@@ -5,7 +5,7 @@ const data = [
     description:
       " I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     dateOfPost: "JULY 23, 2023",
-    src: "./blog-image-06.png",
+    src: "/blog-image-06.png",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const data = [
     description:
       " I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     dateOfPost: "JULY 23, 2023",
-    src: "./blog-image-04.png",
+    src: "/blog-image-04.png",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const data = [
     description:
       " I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     dateOfPost: "JULY 23, 2023",
-    src: "./blog-image-05.png",
+    src: "/blog-image-05.png",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const data = [
     description:
       " I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     dateOfPost: "JULY 23, 2023",
-    src: "./blog-image-03.png",
+    src: "/blog-image-03.png",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const data = [
     description:
       " I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     dateOfPost: "JULY 23, 2023",
-    src: "./blog-image-01.png",
+    src: "/blog-image-01.png",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const data = [
     description:
       " I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     dateOfPost: "JULY 23, 2023",
-    src: "./blog-image-02.png",
+    src: "/blog-image-02.png",
   },
 ];
 export default data;

@@ -7,7 +7,7 @@ function About() {
     <>
       <div className="mx-6 md:mt-12">
         <div className="mt-2  md:flex items-center gap-4 md:w-3/4 md:mx-auto">
-          <img src="./profile.png" alt="profile image" />
+          <img src="/profile.png" alt="profile image" />
           <div>
             <h1 className="text-3xl md:text-4xl font-bold mt-2">
               Hi there! My name is Roku and welcome to my learning journal.
@@ -59,6 +59,7 @@ function About() {
           {data.slice(0, 3).map((value, key) => (
             <Card
               key={value.id}
+              id={value.id}
               title={value.title}
               description={value.description}
               dateOfPost={value.dateOfPost}
