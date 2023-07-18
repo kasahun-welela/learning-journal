@@ -11,6 +11,7 @@ function Home() {
         {data.map((value) => (
           <Card
             key={value.id}
+            id={value.id}
             title={value.title}
             description={value.description}
             dateOfPost={value.dateOfPost}
