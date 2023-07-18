@@ -7,13 +7,13 @@ function Detail() {
     <>
       <div className="mx-6">
         <div className="md:w-[70%] mx-auto">
-          <p className="text-gray-600 text-sm md:text-base mt-7 ">
+          <p className="text-gray-600 dark:text-slate-300 text-sm md:text-base mt-7 ">
             JULY 23,2022
           </p>
-          <h1 className="text-2xl md:text-4xl font-bold my-4">
+          <h1 className="text-2xl md:text-4xl font-bold my-4 dark:text-white">
             My new journey as a bootcamp student.
           </h1>
-          <p>
+          <p className="dark:text-slate-300">
             After several months of learning in the Frontend Developer Career
             Path, I've made the big jump over to the Bootcamp to get expert code
             reviews of my Solo Projects projects and meet like-minded peers.
@@ -29,13 +29,13 @@ function Detail() {
           <h3 className="text-3xl md:text-4xl font-bold">
             How I stay committed to learning
           </h3>
-          <p className="mt-2">
+          <p className="mt-2 dark:text-slate-300">
             I like to think of myself as a lifelong learner. I used to spend
             hours and hours learning, then try to create simple projects using
             what I learned or work new techniques into existing projects.
           </p>
           <br></br>
-          <p>
+          <p className="dark:text-slate-300">
             {" "}
             While that was fun, I felt like it would be helpful to share what I
             was learning and most things about my journey with the world.
